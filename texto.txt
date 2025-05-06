@@ -1,0 +1,36 @@
+Resumo do Caso de Uso 18 – "Assign Frog to Request"
+
+O Caso de Uso 18 descreve o processo pelo qual um SuperFrog Coordinator atribui um ou mais estudantes (SuperFrogs) a uma solicitação de evento previamente aprovada. Esse processo pode ocorrer de forma manual ou automática. A seleção manual permite ao coordenador escolher diretamente estudantes disponíveis, enquanto a seleção automática baseia-se em critérios como data, localização e preferências dos SuperFrogs.
+
+Requisitos Relacionados:
+
+O sistema deve permitir que o coordenador visualize solicitações aprovadas.
+
+O sistema deve listar SuperFrogs disponíveis para o evento.
+
+O coordenador pode selecionar manualmente os estudantes ou ativar a atribuição automática.
+
+O sistema deve garantir que conflitos de horário sejam evitados.
+
+Após a atribuição, o sistema deve notificar os SuperFrogs selecionados.
+
+
+Casos de Teste Associados:
+
+1. Verificação da listagem correta de SuperFrogs disponíveis para uma solicitação.
+
+
+2. Teste de atribuição manual de um SuperFrog a uma solicitação.
+
+
+3. Teste de atribuição automática com base em critérios definidos.
+
+
+4. Confirmação de que notificações são enviadas após a atribuição.
+
+
+5. Teste de conflitos de agendamento – o sistema deve rejeitar atribuições com sobreposição de horários.
+
+
+
+Deseja que eu extraia também o diagrama ou a descrição passo a passo desse caso de uso?
